@@ -6,9 +6,7 @@ let intelligenceButton = document.getElementById('intelligence')
 let wisdomButton = document.getElementById('wisdom')
 let charismaButton = document.getElementById('charisma')
 
-window.onload = evenSize();
-
-
+window.onload = evenSize;
 
 function evenSize(){
   var biggestSize = 0
